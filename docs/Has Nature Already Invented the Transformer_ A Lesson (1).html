@@ -213,5 +213,5 @@ var gl=document.getElementById('gl'),items=[].slice.call(gl.children),az=documen
 items.forEach(function(d,i){var L=d.querySelector('dt').firstChild.textContent[0].toUpperCase();d.style.setProperty('--c',cols[i%6]);d.dataset.t=d.textContent.toLowerCase();if(!seen[L]){seen[L]=1;d.id='g'+L;az.insertAdjacentHTML('beforeend','<a href="#g'+L+'">'+L+'</a>');}});
 document.getElementById('gs').oninput=function(){var q=this.value.toLowerCase();items.forEach(function(d){d.style.display=d.dataset.t.indexOf(q)>-1?'':'none';});};})();
 </script>
-<nav class="article-nav" aria-label="Article navigation"><a href="../index/">All articles</a><h2>More pages in this article</h2><ul><li><a href="Has%20Nature%20Already%20Invented%20the%20Transformer_%20A%20Lesson%20%281%29.html">Has Nature Already Invented the Transformer? A Lesson</a></li></ul></nav>
+<nav class="article-nav" aria-label="Article navigation"><a href="../">All articles</a><h2>More pages in this article</h2><ul><li><a href="Has%20Nature%20Already%20Invented%20the%20Transformer_%20A%20Lesson%20%281%29.html">Has Nature Already Invented the Transformer? A Lesson</a></li></ul></nav>
 </body></html>
